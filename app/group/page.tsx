@@ -12,16 +12,28 @@ const current = [
   ["Debabrata Chandra", "Postdoctoral fellow", "Inflationary cosmology"],
 ];
 
-const former = [
+const formerPostdocs = [
   ["Samuel Sánchez López", "Postdoctoral fellow, 2024–2025", "Inflation and dark-energy problems; now at IAP, Paris."],
   ["Debabrata Adak", "Postdoctoral fellow", "Ionization histories; now at Instituto de Astrofísica de Canarias, Tenerife."],
+];
+
+const formerDoctoralStudents = [
   ["Akhil Antony", "Integrated PhD, defended July 2023", "Thesis: “A Primordial Solution to the Tensions in Cosmology”; subsequently a postdoctoral fellow at APCTP, Pohang."],
+];
+
+const formerMastersStudents = [
   ["Aditi Krishak", "Master’s researcher", "Gaussian-process reconstruction of reionization; now at the University of Southern California."],
-  ["Shweta Jain", "Master’s researcher, NIT Trichy", "Inflationary potentials and damped oscillations."],
+  ["Shweta Jain", "Master’s researcher, NIT Trichy", "Inflationary potentials and damped oscillations; subsequently at the University of Kentucky."],
   ["Kushal Lodha", "BS–MS researcher, IIT Kharagpur", "The Hubble tension; now at KASI, Daejeon."],
-  ["Sharvari Naik", "Master’s researcher, St. Xavier’s College", "Inflationary models; now at the University of Kentucky."],
+  ["Sharvari Naik", "Master’s researcher, St. Xavier’s College", "Inflationary models."],
   ["Shashank Gandhi", "Master’s researcher, IIT Madras", "Models of reionization."],
 ];
+
+const formerGroups = [
+  ["Postdoctoral fellows", formerPostdocs],
+  ["Doctoral students", formerDoctoralStudents],
+  ["Master’s students", formerMastersStudents],
+] as const;
 
 const visitors = [
   ["2020", "COVID-19 happened."],
@@ -104,11 +116,17 @@ export default function GroupPage() {
 
       <section className="former-section shell">
         <div className="section-heading section-heading--rule group-section-heading"><h2>Previous members</h2></div>
-        <div className="people-ledger">
-          {former.map(([name, role, note]) => (
-            <article key={name}><div><h3>{name}</h3><p>{role}</p></div><p>{note}</p>
-              {name === "Akhil Antony" && <a href="https://www.imsc.res.in/xmlui/handle/123456789/620">HBNI thesis ↗</a>}
-            </article>
+        <div className="former-groups">
+          {formerGroups.map(([heading, members]) => (
+            <section className="former-group" key={heading}>
+              <h3>{heading}</h3>
+              {members.map(([name, role, note]) => (
+                <article key={name}>
+                  <h4>{name}</h4><p className="former-group__role">{role}</p><p>{note}</p>
+                  {name === "Akhil Antony" && <a href="https://www.imsc.res.in/xmlui/handle/123456789/620">HBNI thesis ↗</a>}
+                </article>
+              ))}
+            </section>
           ))}
         </div>
       </section>

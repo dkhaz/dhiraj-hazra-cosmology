@@ -241,6 +241,14 @@ button, summary { font: inherit; }
 .people-ledger p { margin: 0; color: #59645c; font-size: 12px; line-height: 1.55; }
 .people-ledger > article > div p { color: var(--green); font-family: var(--font-mono); font-size: 8px; letter-spacing: .06em; text-transform: uppercase; }
 .people-ledger a { align-self: end; justify-self: end; color: var(--green); font-family: var(--font-mono); font-size: 8px; text-decoration: underline; }
+.former-groups { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; }
+.former-group { border-top: 1px solid var(--orange); }
+.former-group > h3 { margin: 18px 0 24px; font-family: var(--font-serif); font-size: 27px; font-weight: 400; }
+.former-group article { padding: 20px 0 22px; border-top: 1px solid var(--line); }
+.former-group h4 { margin: 0 0 5px; font-family: var(--font-serif); font-size: 22px; font-weight: 400; line-height: 1.15; }
+.former-group p { margin: 0; color: #59645c; font-size: 12px; line-height: 1.55; }
+.former-group .former-group__role { margin-bottom: 13px; color: var(--green); font-family: var(--font-mono); font-size: 8px; letter-spacing: .06em; text-transform: uppercase; }
+.former-group a { display: inline-block; margin-top: 12px; color: var(--green); font-family: var(--font-mono); font-size: 8px; text-decoration: underline; text-transform: uppercase; }
 .visitor-timeline { display: grid; grid-template-columns: repeat(6, 1fr); border-top: 1px solid var(--line); }
 .visitor-timeline article { min-height: 180px; padding: 20px 18px; border-right: 1px solid var(--line); }
 .visitor-timeline article:last-child { border-right: 0; }
@@ -517,6 +525,7 @@ button, summary { font: inherit; }
   .notebook-figures { grid-template-columns: 1fr; }
   .split-ledgers { grid-template-columns: 1fr; gap: 60px; }
   .people-grid { grid-template-columns: 1fr 1fr; }
+  .former-groups { grid-template-columns: 1fr; gap: 48px; }
   .person-entry:nth-child(2) { border-right: 0; }
   .person-entry:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
   .visitor-timeline { grid-template-columns: 1fr 1fr 1fr; }
