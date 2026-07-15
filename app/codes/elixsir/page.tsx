@@ -58,7 +58,7 @@ export default function ElixsirPage() {
 
       <section className="code-scope shell">
         <p className="kicker">Model anatomy</p>
-        <div><p className="code-scope__lead">A cosmologist’s inference machinery, adapted to an evolving epidemic.</p><p>ELiXSIR solves an extended SEIR system with nine compartments, age-dependent contact patterns and migration between zones. Several lockdown mechanisms can be tested as guidance for policy. Migration may be coupled through a gravity prescription or a more generic connection structure.</p><p>The code was developed within the INDSCI-SIM collaboration and integrates directly with samplers for parameter estimation. Its published application covered Karnataka districts and state, five major cities, and India as a whole—not Delhi alone.</p><a className="text-link" href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010632" rel="noreferrer" target="_blank">Read the PLOS Computational Biology paper ↗</a></div>
+        <div><p>ELiXSIR solves an extended SEIR system with nine compartments, age-dependent contact patterns and migration between zones. The framework allows different intervention scenarios to be studied. Migration may be coupled through a gravity prescription or a more generic connection structure.</p><p>The code was developed within the INDSCI-SIM collaboration, which provided scientific inputs during the Indian COVID-19 response, and integrates directly with samplers for parameter estimation. Its published application covered Karnataka districts and state, five major cities, and India as a whole—not Delhi alone.</p><a className="text-link" href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010632" rel="noreferrer" target="_blank">Read the PLOS Computational Biology paper ↗</a></div>
       </section>
 
       <section className="elixsir-figure-section shell" id="source-figures">
@@ -97,7 +97,7 @@ export default function ElixsirPage() {
           <div><span>02</span><h3>Karnataka state</h3><p>Joint fits to infections and deaths with uncertainty bands.</p></div>
           <div><span>03</span><h3>Five cities</h3><p>Bengaluru, Chennai, Delhi, Mumbai and Pune, each with distinct epidemic structure.</p></div>
           <div><span>04</span><h3>India aggregate</h3><p>A nationwide first-wave reconstruction with inferred infections and reporting bias.</p></div>
-          <div><span>05</span><h3>Latent quantities</h3><p>Actual infections, infection fatality ratio and the evolving reproduction number R(t).</p></div>
+          <div><span>05</span><h3>Latent quantities</h3><p>Inferred total infections, infection fatality ratio and the evolving reproduction number R(t).</p></div>
         </div>
         <a
           className="application-figure"
@@ -112,7 +112,7 @@ export default function ElixsirPage() {
             <figcaption>
               <span>Published result · PLOS Computational Biology · CC BY</span>
               <h3>One model, several observational layers</h3>
-              <p>Reported cases and deaths are fitted jointly; posterior samples then recover actual infections, reporting bias, the infection fatality ratio and R(t).</p>
+              <p>Reported cases and deaths are fitted jointly; posterior samples then recover inferred total infections, reporting bias, the infection fatality ratio and R(t).</p>
               <strong>Read the paper and figure source ↗</strong>
             </figcaption>
           </figure>

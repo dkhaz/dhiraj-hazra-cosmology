@@ -184,8 +184,6 @@ export default function ResearchPage() {
       </div>
 
       <section className="closing-note shell">
-        <p className="kicker">Across the programme</p>
-        <h2>Observation gives the constraint.<br />Reconstruction gives the clue.<br />Theory gives the test.</h2>
         <a className="text-link" href={sitePath("/codes")}>Continue to computational work →</a>
       </section>
     </main>

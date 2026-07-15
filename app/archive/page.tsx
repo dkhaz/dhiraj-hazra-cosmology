@@ -17,7 +17,7 @@ const resources = [
 const map = [
   ["Home", "/"], ["Codes, models and algorithms", "/codes"], ["Thesis", "/about#thesis"],
   ["Conferences", "/conferences"], ["My group", "/group"], ["Grants", "/about#grants"],
-  ["Selected publications", "/publications"], ["BINGO", "/codes/bingo"], ["BINGO registration", "/codes/bingo#download"],
+  ["Publications", "/publications"], ["BINGO", "/codes/bingo"], ["BINGO registration", "/codes/bingo#download"],
   ["BINGO sample plots", "/codes/bingo#samples"], ["ELiXSIR", "/codes/elixsir"], ["Seminars", "/talks"],
   ["Contacts", "/about#contact"], ["Collaborators", "/group#collaborators"], ["My artworks", "/artworks"],
   ["Useful links", "/archive#links"],

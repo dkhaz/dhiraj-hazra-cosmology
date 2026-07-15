@@ -62,7 +62,6 @@ export default function Home() {
           </div>
           <figcaption>
             Reconstructed primordial power spectrum from Planck PR3 and ACT DR4.
-            The data do not merely test a theory; they leave clues for building one.
             <a href="https://arxiv.org/abs/2406.06296"> View paper ↗</a>
           </figcaption>
         </figure>
@@ -72,7 +71,7 @@ export default function Home() {
         <div className="shell">
           <div className="section-rule">
             <p className="kicker">Research index</p>
-            <h2 id="research-index-heading">Four scales, one history</h2>
+            <h2 id="research-index-heading">Research areas</h2>
           </div>
           <div className="index-grid">
             {themes.map((theme) => (

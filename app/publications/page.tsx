@@ -145,11 +145,11 @@ export default function PublicationsPage() {
         <p className="kicker">Publication record</p>
         <h1>Publications.</h1>
         <p>
-          The complete record is organized by research theme, with direct links to
-          the corresponding INSPIRE entries and interdisciplinary publications.
+          Publications are organized by research theme, with direct links to the
+          corresponding INSPIRE entries and interdisciplinary publications. INSPIRE maintains the authoritative complete record.
         </p>
         <div className="page-intro__actions">
-          <a className="text-link" href="https://inspirehep.net/authors/1117380?ui-citation-summary=true">Complete record on INSPIRE ↗</a>
+          <a className="text-link" href="https://inspirehep.net/authors/1117380?ui-citation-summary=true">Authoritative record on INSPIRE ↗</a>
           <a className="quiet-link" href="https://arxiv.org/search/astro-ph?searchtype=author&query=Hazra%2C+D+K">arXiv author search ↗</a>
         </div>
       </header>
@@ -184,7 +184,7 @@ export default function PublicationsPage() {
       <section className="bibliography shell">
         <div className="section-heading section-heading--rule">
           <p className="kicker">Research themes</p>
-          <h2>Complete contributions by theme</h2>
+          <h2>Publications by research theme</h2>
         </div>
         {categories.map((category) => (
           <article className="bibliography-section" key={category.number}>

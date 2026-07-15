@@ -17,7 +17,7 @@ const earlyTalks = [
 ];
 
 const seminarTours = [
-  ["2011", "Local and non-local primordial features", "ICTP Trieste; Royal Observatory Edinburgh; DAMTP Cambridge; APC and IAP Paris; CERN Cosmo Coffee and University of Geneva — September 2011."],
+  ["Sep 2011", "Local and non-local primordial features", "ICTP Trieste; Royal Observatory Edinburgh; DAMTP Cambridge; APC and IAP Paris; CERN Cosmo Coffee and University of Geneva."],
   ["2013", "Reconstructing the primordial power spectrum", "Bielefeld; Göttingen; Leiden; IAP and APC Paris — 9–18 July 2013."],
   ["2014", "Primordial power spectrum from Planck", "University College London; Imperial College London; Kavli Institute for Cosmology Cambridge — 30 July–6 August 2014."],
   ["2014", "Assumptions, observations and parameter estimations", "IUCAA Pune and TIFR Mumbai — 16–17 October 2014."],
@@ -28,7 +28,11 @@ const seminarTours = [
   ["2018", "The standard model of cosmology and beyond", "Institute of Mathematical Sciences, Chennai — 4 June 2018."],
   ["2018", "The standard model and beyond: constraints and forecasts", "Institute of Theoretical Astrophysics, University of Oslo — 20 September 2018."],
   ["2019", "Reconstructing the primordial Universe", "Tufts University — 12 September 2019."],
+  ["18 Feb 2019", "Joining bits and pieces of reionization history", "Concordances and Challenges in Cosmology after Planck, Sexten Centre for Astrophysics."],
   ["2019", "Reconstructing cosmological events at early and late times", "Harvard–Smithsonian CfA and Brown University — 20 and 30 September 2019."],
+  ["31 Aug 2020", "On the possibility of primordial features", "Physics of the Early Universe online programme, ICTS."],
+  ["12–15 Oct 2020", "Codes, Computations and Constraints in Cosmology", "FACETS 2020 mathematics lecture series, IMSc."],
+  ["11 Nov 2020", "Primordial black holes and small-scale gravitational waves in two-field models of inflation", "Online seminar accompanying the PBH–SbGW–2FM slide archive."],
 ];
 
 const recentTalks = [
@@ -90,6 +94,13 @@ const recentTalks = [
     date: "6–8 Mar 2025",
     title: "Tensions and Anomalies on the Sky",
     venue: "Conference talk at the Centre for Theoretical Physics, Jamia Millia Islamia, New Delhi.",
+  },
+  {
+    date: "10 Dec 2025",
+    title: "The high-redshift Universe and reionization studies",
+    venue: "Rethinking Cosmology, Raman Research Institute, Bengaluru.",
+    href: "https://www.rri.res.in/meetings/rethinking-cosmology",
+    linkLabel: "Meeting page ↗",
   },
 ];
 
@@ -164,16 +175,12 @@ export default function TalksPage() {
       </section>
 
       <section className="seminar-section shell">
-        <div className="section-heading section-heading--rule"><p className="kicker">Seminar tours</p><h2>Seminars, 2011–2019</h2></div>
+        <div className="section-heading section-heading--rule"><p className="kicker">Seminar chronology</p><h2>Seminars &amp; lectures, 2011–2025</h2></div>
         <div className="seminar-timeline">
           {seminarTours.map(([year, title, venues]) => (
             <article key={`${year}-${title}`}><time>{year}</time><div><h3>{title}</h3><p>{venues}</p></div></article>
           ))}
         </div>
-      </section>
-
-      <section className="recent-talk-section shell">
-        <div className="section-heading section-heading--rule"><p className="kicker">From the annual reports</p><h2>Recent talks &amp; lecture series, 2021–2025</h2></div>
         <div className="report-talk-list">
           {recentTalks.map((talk) => (
             <article key={`${talk.date}-${talk.title}`}>
@@ -184,7 +191,7 @@ export default function TalksPage() {
           ))}
         </div>
         <aside className="report-sources">
-          <p>Chronology transcribed from the Institute of Mathematical Sciences annual reports; event titles are retained where supplied.</p>
+          <p>Chronology cross-checked against the Institute of Mathematical Sciences annual reports, the slide archive and event pages.</p>
           <div>
             {annualReports.map(([label, href]) => <a key={label} href={href} rel="noreferrer" target="_blank">{label} report ↗</a>)}
           </div>

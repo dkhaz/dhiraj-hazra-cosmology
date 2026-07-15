@@ -67,7 +67,7 @@ export default function AboutPage() {
       <section className="survey-section shell">
         <div className="section-heading section-heading--rule"><p className="kicker">Collective observations</p><h2>Survey collaborations</h2></div>
         <div className="survey-grid">
-          <article><span>01</span><h3>CMB Bharat</h3><p>I am a member of the CMB Bharat consortium and led the Cosmological Parameters working group for its first ISRO Announcement of Opportunity proposal, submitted 16 April 2018. The proposal describes a next-generation space mission for near-ultimate CMB-polarization measurements and the discovery of global spectral distortions.</p></article>
+          <article><span>01</span><h3>CMB Bharat</h3><p>I am a member of the CMB Bharat consortium and led the Cosmological Parameters working group for its first ISRO Announcement of Opportunity proposal, submitted 16 April 2018. The proposal describes a next-generation space mission for high-sensitivity CMB-polarization and spectral-distortion measurements.</p></article>
           <article><span>02</span><h3>Euclid Consortium</h3><p>I am a member of the Euclid Consortium’s Theoretical Working Group. Euclid, an ESA mission, maps the geometry of the Universe through the shapes and spectra of galaxies and clusters.</p></article>
         </div>
       </section>
