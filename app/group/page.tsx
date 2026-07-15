@@ -13,8 +13,8 @@ const current = [
 ];
 
 const formerPostdocs = [
-  ["Samuel Sánchez López", "Postdoctoral fellow, 2024–2025", "Inflation and dark-energy problems; now at IAP, Paris."],
-  ["Debabrata Adak", "Postdoctoral fellow", "Ionization histories; now at Instituto de Astrofísica de Canarias, Tenerife."],
+  ["Samuel Sánchez López", "Postdoctoral fellow, 2024–2025", "Inflation and dark-energy problems; subsequently at IAP, Paris."],
+  ["Debabrata Adak", "Postdoctoral fellow", "Ionization histories; subsequently at Instituto de Astrofísica de Canarias, Tenerife."],
 ];
 
 const formerDoctoralStudents = [
@@ -22,9 +22,9 @@ const formerDoctoralStudents = [
 ];
 
 const formerMastersStudents = [
-  ["Aditi Krishak", "Master’s researcher", "Gaussian-process reconstruction of reionization; now at the University of Southern California."],
+  ["Aditi Krishak", "Master’s researcher", "Gaussian-process reconstruction of reionization; subsequently at the University of Southern California."],
   ["Shweta Jain", "Master’s researcher, NIT Trichy", "Inflationary potentials and damped oscillations; subsequently at the University of Kentucky."],
-  ["Kushal Lodha", "BS–MS researcher, IIT Kharagpur", "The Hubble tension; now at KASI, Daejeon."],
+  ["Kushal Lodha", "BS–MS researcher, IIT Kharagpur", "The Hubble tension; subsequently at KASI, Daejeon."],
   ["Sharvari Naik", "Master’s researcher, St. Xavier’s College", "Inflationary models."],
   ["Shashank Gandhi", "Master’s researcher, IIT Madras", "Models of reionization."],
 ];
