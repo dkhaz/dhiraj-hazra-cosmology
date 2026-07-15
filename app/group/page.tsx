@@ -87,7 +87,7 @@ export default function GroupPage() {
       </header>
 
       <section className="people-section shell">
-        <div className="section-heading section-heading--rule"><p className="kicker">Present members</p><h2>Current questions, shared work</h2></div>
+        <div className="section-heading section-heading--rule"><h2>Present members</h2></div>
         <div className="people-grid">
           {current.map(([name, role, topic], index) => (
             <article className="person-entry" key={name}>
@@ -103,7 +103,7 @@ export default function GroupPage() {
       </section>
 
       <section className="former-section shell">
-        <div className="section-heading section-heading--rule"><p className="kicker">Group archive</p><h2>Previous members</h2></div>
+        <div className="section-heading section-heading--rule"><h2>Previous members</h2></div>
         <div className="people-ledger">
           {former.map(([name, role, note]) => (
             <article key={name}><div><h3>{name}</h3><p>{role}</p></div><p>{note}</p>

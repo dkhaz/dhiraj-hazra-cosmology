@@ -14,6 +14,11 @@ const earlyTalks = [
   ["Cosmological parameter estimation with free-form PPS", "Reconstructing the Universe, IEU Seoul, 3–5 Jun 2013; 1st APCTP–NBIA Workshop, Pohang, 21–25 Oct 2013."],
   ["Reconstruction from WMAP and Planck", "New Perspectives on Cosmology, APCTP, 25–29 Nov 2013; Cosmology and Fundamental Physics IV, APCTP, 5–15 Dec 2013."],
   ["Joining bits and pieces of reionization history", "Concordances and Challenges in Cosmology after Planck, Sexten, 18–22 Feb 2019."],
+  ["One spectrum to cure them all", "40th meeting of the Astronomical Society of India, IIT Roorkee / online, 25–29 Mar 2022."],
+  ["Cosmological tensions and concordance cosmology", "Cosmological Tensions and its Implications to Concordance Cosmology, IFPU Trieste, 12–23 Jun 2023."],
+  ["4th BRICS–AGAC symposium", "SGT University, Haryana, 17–19 Dec 2024."],
+  ["Tensions and Anomalies on the Sky", "Centre for Theoretical Physics, Jamia Millia Islamia, New Delhi, 6–8 Mar 2025."],
+  ["The high-redshift Universe and reionization studies", "Rethinking Cosmology, Raman Research Institute, Bengaluru, 10 Dec 2025."],
 ];
 
 const seminarTours = [
@@ -28,7 +33,6 @@ const seminarTours = [
   ["2018", "The standard model of cosmology and beyond", "Institute of Mathematical Sciences, Chennai — 4 June 2018."],
   ["2018", "The standard model and beyond: constraints and forecasts", "Institute of Theoretical Astrophysics, University of Oslo — 20 September 2018."],
   ["2019", "Reconstructing the primordial Universe", "Tufts University — 12 September 2019."],
-  ["18 Feb 2019", "Joining bits and pieces of reionization history", "Concordances and Challenges in Cosmology after Planck, Sexten Centre for Astrophysics."],
   ["2019", "Reconstructing cosmological events at early and late times", "Harvard–Smithsonian CfA and Brown University — 20 and 30 September 2019."],
   ["31 Aug 2020", "On the possibility of primordial features", "Physics of the Early Universe online programme, ICTS."],
   ["12–15 Oct 2020", "Codes, Computations and Constraints in Cosmology", "FACETS 2020 mathematics lecture series, IMSc."],
@@ -49,11 +53,6 @@ const recentTalks = [
     venue: "A three-stop sequence at IIT Madras, IIT Hyderabad and Ramakrishna Mission Vivekananda Educational and Research Institute, Belur Math.",
   },
   {
-    date: "25–29 Mar 2022",
-    title: "One spectrum to cure them all",
-    venue: "40th meeting of the Astronomical Society of India, IIT Roorkee / online.",
-  },
-  {
     date: "16–28 May 2022",
     title: "Cosmological perturbations",
     venue: "Lectures at the First IAGRG School on Gravitation and Cosmology.",
@@ -64,11 +63,6 @@ const recentTalks = [
     date: "1 May–9 Jun 2023",
     title: "One spectrum to cure them all",
     venue: "Seminars at École normale supérieure, Institut d’Astrophysique de Paris, Astroparticule et Cosmologie, and the University of Bologna.",
-  },
-  {
-    date: "12–23 Jun 2023",
-    title: "Cosmological tensions and concordance cosmology",
-    venue: "Conference contribution at the Institute for Fundamental Physics of the Universe, Trieste.",
   },
   {
     date: "23 Apr–22 May 2024",
@@ -84,23 +78,6 @@ const recentTalks = [
     date: "23 Aug 2024",
     title: "A brief history of our Universe — as observed from multiple windows",
     venue: "Public lecture for National Space Day at the Centre for Astronomy and Planetary Sciences, Patrician College, Chennai.",
-  },
-  {
-    date: "17–19 Dec 2024",
-    title: "4th BRICS–AGAC symposium",
-    venue: "Conference talk at SGT University, Haryana.",
-  },
-  {
-    date: "6–8 Mar 2025",
-    title: "Tensions and Anomalies on the Sky",
-    venue: "Conference talk at the Centre for Theoretical Physics, Jamia Millia Islamia, New Delhi.",
-  },
-  {
-    date: "10 Dec 2025",
-    title: "The high-redshift Universe and reionization studies",
-    venue: "Rethinking Cosmology, Raman Research Institute, Bengaluru.",
-    href: "https://www.rri.res.in/meetings/rethinking-cosmology",
-    linkLabel: "Meeting page ↗",
   },
 ];
 
@@ -180,13 +157,10 @@ export default function TalksPage() {
           {seminarTours.map(([year, title, venues]) => (
             <article key={`${year}-${title}`}><time>{year}</time><div><h3>{title}</h3><p>{venues}</p></div></article>
           ))}
-        </div>
-        <div className="report-talk-list">
           {recentTalks.map((talk) => (
             <article key={`${talk.date}-${talk.title}`}>
               <time>{talk.date}</time>
-              <div><h3>{talk.title}</h3><p>{talk.venue}</p></div>
-              {talk.href && <a href={talk.href} rel="noreferrer" target="_blank">{talk.linkLabel}</a>}
+              <div><h3>{talk.title}</h3><p>{talk.venue}</p>{talk.href && <a className="text-link" href={talk.href} rel="noreferrer" target="_blank">{talk.linkLabel}</a>}</div>
             </article>
           ))}
         </div>
