@@ -18,7 +18,7 @@ const earlyTalks = [
   ["Cosmological tensions and concordance cosmology", "Cosmological Tensions and its Implications to Concordance Cosmology, IFPU Trieste, 12–23 Jun 2023."],
   ["4th BRICS–AGAC symposium", "SGT University, Haryana, 17–19 Dec 2024."],
   ["Tensions and Anomalies on the Sky", "Centre for Theoretical Physics, Jamia Millia Islamia, New Delhi, 6–8 Mar 2025."],
-  ["The high-redshift Universe and reionization studies", "Rethinking Cosmology, Raman Research Institute, Bengaluru, 10 Dec 2025."],
+  ["CMB Bharat", "Rethinking Cosmology, Raman Research Institute, Bengaluru, 10 Dec 2025."],
 ];
 
 const seminarTours = [
