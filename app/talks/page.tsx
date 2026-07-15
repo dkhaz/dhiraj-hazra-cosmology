@@ -18,7 +18,7 @@ const earlyTalks = [
   ["Cosmological tensions and concordance cosmology", "Cosmological Tensions and its Implications to Concordance Cosmology, IFPU Trieste, 12–23 Jun 2023."],
   ["4th BRICS–AGAC symposium", "SGT University, Haryana, 17–19 Dec 2024."],
   ["Tensions and Anomalies on the Sky", "Centre for Theoretical Physics, Jamia Millia Islamia, New Delhi, 6–8 Mar 2025."],
-  ["CMB Bharat", "Rethinking Cosmology, Raman Research Institute, Bengaluru, 10 Dec 2025."],
+  ["ECHO from CMB Bharat", "Rethinking Cosmology, Raman Research Institute, Bengaluru, 10 Dec 2025."],
 ];
 
 const seminarTours = [
@@ -79,13 +79,6 @@ const recentTalks = [
     title: "A brief history of our Universe — as observed from multiple windows",
     venue: "Public lecture for National Space Day at the Centre for Astronomy and Planetary Sciences, Patrician College, Chennai.",
   },
-];
-
-const annualReports = [
-  ["2021–22", "https://www.imsc.res.in/annrep/Archive/2021-22.pdf"],
-  ["2022–23", "https://www.imsc.res.in/annrep/Archive/2022-23.pdf"],
-  ["2023–24", "https://www.imsc.res.in/annrep/Archive/2023-24.pdf"],
-  ["2024–25", "https://www.imsc.res.in/annrep/Archive/2024-25.pdf"],
 ];
 
 const slideArchive = [
@@ -164,12 +157,6 @@ export default function TalksPage() {
             </article>
           ))}
         </div>
-        <aside className="report-sources">
-          <p>Chronology cross-checked against the Institute of Mathematical Sciences annual reports, the slide archive and event pages.</p>
-          <div>
-            {annualReports.map(([label, href]) => <a key={label} href={href} rel="noreferrer" target="_blank">{label} report ↗</a>)}
-          </div>
-        </aside>
       </section>
 
       <section className="slide-section shell">
