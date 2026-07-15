@@ -9,7 +9,6 @@ export const metadata: Metadata = {
   },
   description:
     "Research in cosmology by Dhiraj Kumar Hazra: the early Universe, cosmological inference, reionization and large-scale structure.",
-  other: { "codex-preview": "development" },
   icons: { icon: sitePath("/favicon.svg"), shortcut: sitePath("/favicon.svg") },
 };
 
@@ -31,7 +30,6 @@ const archiveNav = [
   ["Collaborators", "/group#collaborators"],
   ["Artworks", "/artworks"],
   ["Useful links", "/archive#links"],
-  ["My school", "/archive#school"],
 ];
 
 function Header() {
