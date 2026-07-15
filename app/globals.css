@@ -155,6 +155,8 @@ button, summary { font: inherit; }
 .section-heading { display: grid; grid-template-columns: 3fr 9fr; gap: 24px; align-items: end; margin-bottom: 34px; }
 .section-heading--rule { padding-bottom: 20px; border-bottom: 1px solid var(--line); }
 .section-heading h2 { margin: 0; font-family: var(--font-serif); font-size: clamp(35px, 3.3vw, 50px); font-weight: 400; letter-spacing: -.04em; line-height: 1; }
+.group-section-heading { display: block; text-align: center; }
+.group-section-heading h2 { margin: 0; }
 
 .paper-highlights { padding-top: 76px; padding-bottom: 84px; border-bottom: 1px solid var(--line); }
 .paper-highlight-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); }

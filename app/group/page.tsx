@@ -87,7 +87,7 @@ export default function GroupPage() {
       </header>
 
       <section className="people-section shell">
-        <div className="section-heading section-heading--rule"><h2>Present members</h2></div>
+        <div className="section-heading section-heading--rule group-section-heading"><h2>Present members</h2></div>
         <div className="people-grid">
           {current.map(([name, role, topic], index) => (
             <article className="person-entry" key={name}>
@@ -103,7 +103,7 @@ export default function GroupPage() {
       </section>
 
       <section className="former-section shell">
-        <div className="section-heading section-heading--rule"><h2>Previous members</h2></div>
+        <div className="section-heading section-heading--rule group-section-heading"><h2>Previous members</h2></div>
         <div className="people-ledger">
           {former.map(([name, role, note]) => (
             <article key={name}><div><h3>{name}</h3><p>{role}</p></div><p>{note}</p>
@@ -114,14 +114,14 @@ export default function GroupPage() {
       </section>
 
       <section className="visitor-section shell">
-        <div className="section-heading section-heading--rule"><p className="kicker">Scientific exchange</p><h2>Visitors</h2></div>
+        <div className="section-heading section-heading--rule group-section-heading"><h2>Visitors</h2></div>
         <div className="visitor-timeline">
           {visitors.map(([year, names]) => <article key={year}><time>{year}</time><p>{names}</p></article>)}
         </div>
       </section>
 
       <section className="collaborator-section shell" id="collaborators">
-        <div className="section-heading section-heading--rule"><p className="kicker">Research network</p><h2>Collaborators</h2></div>
+        <div className="section-heading section-heading--rule group-section-heading"><h2>Collaborators</h2></div>
         <div className="collaborator-grid">
           {collaborators.map((name) => (
             <article key={name}><h3>{name}</h3></article>
