@@ -56,7 +56,7 @@ export default function Home() {
           </div>
           <div className="hero-figure__image">
             <img
-              src={sitePath("/figures/cosmological-inference.png")}
+              src={sitePath("/figures/cosmological-inference-home.png")}
               alt="Reconstructed primordial power spectrum from Planck and ACT data"
             />
           </div>
