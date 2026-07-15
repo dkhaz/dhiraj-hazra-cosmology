@@ -32,23 +32,6 @@ const visitors = [
   ["2025", "Tirthankar Roy Choudhury (NCRA–TIFR); Sushan Konar (Ashoka University)."],
 ];
 
-const visitorSeminars = [
-  {
-    date: "10 Nov 2023",
-    name: "Vincent Vennin",
-    title: "Can we prove that cosmic structures are of quantum mechanical origin?",
-    href: "https://www.youtube.com/playlist?list=PLhkiT_RYTEU0A3VgnI1kwkMI0Wuhy6B6U",
-    linkLabel: "IMSc seminar playlist ↗",
-  },
-  {
-    date: "21 Dec 2023",
-    name: "Matteo Braglia",
-    title: "Tests of inflation from the largest to the smallest scales",
-    href: "https://www.youtube.com/watch?v=t3Ezr4_9bGQ",
-    linkLabel: "Watch seminar ↗",
-  },
-];
-
 const collaborators = [
   "Arman Shafieloo",
   "George F. Smoot",
@@ -134,16 +117,6 @@ export default function GroupPage() {
         <div className="section-heading section-heading--rule"><p className="kicker">Scientific exchange</p><h2>Visitors</h2></div>
         <div className="visitor-timeline">
           {visitors.map(([year, names]) => <article key={year}><time>{year}</time><p>{names}</p></article>)}
-        </div>
-        <div className="visitor-recordings">
-          {visitorSeminars.map((seminar) => (
-            <article key={seminar.name}>
-              <span>{seminar.date}</span>
-              <h3>{seminar.name}</h3>
-              <p>{seminar.title}</p>
-              <a href={seminar.href} rel="noreferrer" target="_blank">{seminar.linkLabel}</a>
-            </article>
-          ))}
         </div>
       </section>
 

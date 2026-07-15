@@ -162,19 +162,19 @@ export default function PublicationsPage() {
         <div className="paper-highlight-grid">
           <a className="paper-highlight" href="https://arxiv.org/abs/2406.06296" target="_blank" rel="noreferrer">
             <span className="paper-highlight__year">Observational analysis · 2024</span>
-            <div className="paper-highlight__image"><img src={sitePath("/figures/cosmological-inference.png")} alt="ACT DR4 primordial power spectrum reconstruction compared with Planck" /></div>
+            <div className="paper-highlight__image"><img src={sitePath("/figures/cosmological-inference.png")} alt="ACT and Planck reconstruction above a reconstructed primordial spectrum matched by an inflationary model" /></div>
             <h3>Analysis of observational data</h3>
-            <p>ACT DR4 and Planck PR3 reconstruction of the primordial power spectrum.</p>
+            <p>ACT–Planck reconstruction together with the reconstructed spectrum and its inflationary realization from One Spectrum to Cure Them All.</p>
           </a>
           <a className="paper-highlight" href="https://arxiv.org/abs/1201.0926" target="_blank" rel="noreferrer">
             <span className="paper-highlight__year">Numerical theory · 2013</span>
             <div className="paper-highlight__image"><img src={sitePath("/figures/research/bingo-g1-g7.png")} alt="BINGO numerical contributions G1 through G7 to the inflationary bispectrum" /></div>
             <h3>Developing codes to solve theories</h3>
-            <p>BINGO’s numerical evaluation and convergence of the G₁–G₇ bispectrum contributions.</p>
+            <p>BINGO’s numerical evaluation of the G₁–G₇ bispectrum contributions across three inflationary models.</p>
           </a>
           <a className="paper-highlight" href="https://arxiv.org/abs/2103.03025" target="_blank" rel="noreferrer">
             <span className="paper-highlight__year">Model–data comparison · 2021</span>
-            <div className="paper-highlight__image"><img src={sitePath("/figures/research/multifield-planck-comparison.png")} alt="Multi-field primordial feature model compared with Planck temperature and polarization data" /></div>
+            <div className="paper-highlight__image"><img src={sitePath("/figures/research/multifield-planck-comparison.png")} alt="Multi-field model likelihood scatter and residual temperature and polarization spectra compared with Planck data" /></div>
             <h3>Comparison of theory with the data</h3>
             <p>A multi-field primordial feature model compared directly with Planck temperature and polarization measurements.</p>
           </a>
