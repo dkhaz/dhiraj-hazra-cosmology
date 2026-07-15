@@ -61,15 +61,6 @@ const sections = [
     supplementaryFigures: [
       {
         label: "FIG. 02A",
-        title: "Primordial power spectrum from Planck",
-        image: "/figures/research/planck-pps-2014.png",
-        alt: "Smooth primordial power spectra reconstructed from Planck temperature data compared with the best-fit power law",
-        caption: "Uniform and error-weighted reconstructions isolate the broad and local structure preferred by Planck temperature data over a featureless power law.",
-        paper: "https://arxiv.org/abs/1406.4827",
-        source: "JCAP 2014",
-      },
-      {
-        label: "FIG. 02B",
         title: "Reconstructed PPS and angular spectra",
         image: "/figures/research/planck-pps-cl-reconstruction.png",
         alt: "Color-coded Planck primordial power-spectrum reconstructions and their corresponding CMB temperature angular power spectra",
