@@ -178,8 +178,11 @@ button, summary { font: inherit; }
 .paper-list li { display: grid; grid-template-columns: 1fr 180px; gap: 24px; padding: 15px 0; border-top: 1px solid #c6c9c1; counter-increment: paper; }
 .paper-list li:first-child { padding-top: 0; border-top: 0; }
 .paper-list h4 { margin: 0 0 4px; font-size: 14px; font-weight: 600; line-height: 1.35; }
+.paper-list h4 a { transition: color 160ms ease; }
+.paper-list h4 a:hover, .paper-list h4 a:focus-visible { color: var(--green); }
 .paper-list p { margin: 0; color: #667068; font-size: 11px; line-height: 1.45; }
 .paper-list cite { color: var(--green); font-family: var(--font-mono); font-size: 9px; font-style: normal; letter-spacing: .03em; line-height: 1.5; }
+.paper-list cite a:hover, .paper-list cite a:focus-visible { text-decoration: underline; text-underline-offset: 3px; }
 
 .manifesto { display: grid; grid-template-columns: repeat(12, 1fr); gap: 24px; padding-top: 72px; padding-bottom: 80px; border-bottom: 1px solid var(--line); }
 .manifesto > .kicker { grid-column: 1 / span 3; }

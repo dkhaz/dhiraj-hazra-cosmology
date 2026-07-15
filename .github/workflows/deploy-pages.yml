@@ -16,6 +16,9 @@ concurrency:
 
 jobs:
   build:
+    # The repository stays private while the site is under review. Skip Pages
+    # until it is public; the workflow will then run on the next push or by hand.
+    if: ${{ github.event.repository.private == false }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
