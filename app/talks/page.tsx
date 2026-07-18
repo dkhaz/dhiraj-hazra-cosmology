@@ -15,7 +15,7 @@ const earlyTalks = [
   ["Reconstruction from WMAP and Planck", "New Perspectives on Cosmology, APCTP, 25–29 Nov 2013; Cosmology and Fundamental Physics IV, APCTP, 5–15 Dec 2013."],
   ["Whipped Inflation, Planck and BICEP2", "1st APCTP–TUS Workshop on Dark Energy, APCTP, Pohang, 2–5 Jun 2014."],
   ["Primordial power spectrum from Planck", "Cosmological Quests for the Next Decade, KASI, Daejeon, 16–18 Apr 2014; 2nd NBIA–APCTP Workshop on Cosmology and Astroparticle Physics, NBIA, Copenhagen, 18–22 Aug 2014; Cosmology after Planck, MIAPP, Garching, 25 Aug–6 Sep 2014."],
-  ["Joining bits and pieces of reionization history", "Concordances and Challenges in Cosmology after Planck, Sexten, 18–22 Feb 2019."],
+  ["Joining bits and pieces of reionization history", "Concordances and Challenges in Cosmology after Planck, Sexten, 18–22 Feb 2019; Workshop on 21-cm Cosmology in the Square Kilometre Array Era, TIH–ISI Kolkata, 1 Nov 2022."],
   ["One spectrum to cure them all", "40th meeting of the Astronomical Society of India, IIT Roorkee / online, 25–29 Mar 2022; Cosmological Tensions and its Implication to Concordance Cosmology, IFPU Trieste, 12–23 Jun 2023."],
   ["CMB Data: A Discussion on Physics and Systematics", "4th BRICS–AGAC symposium, SGT University, Haryana, 17–19 Dec 2024."],
   ["Primordial Features and CMB Anomalies", "Tensions and Anomalies on the Sky, Centre for Theoretical Physics, Jamia Millia Islamia, New Delhi, 6–8 Mar 2025."],
