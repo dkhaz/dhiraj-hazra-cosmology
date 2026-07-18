@@ -68,7 +68,7 @@ const recentTalks = [
   },
   {
     date: "23–27 May 2023",
-    title: "Cosmology and programming for cosmology",
+    title: "Cosmology Programming",
     venue: "Lectures and tutorials at the Science Academies’ Refresher Course on General Relativity and Cosmology, St. Dominic’s College, Kanjirapally, Kerala.",
   },
   {
