@@ -67,6 +67,11 @@ const recentTalks = [
     venue: "Seminars at École normale supérieure, Institut d’Astrophysique de Paris, Astroparticule et Cosmologie, and the University of Bologna.",
   },
   {
+    date: "23–27 May 2023",
+    title: "Cosmology and programming for cosmology",
+    venue: "Lectures and tutorials at the Science Academies’ Refresher Course on General Relativity and Cosmology, St. Dominic’s College, Kanjirapally, Kerala.",
+  },
+  {
     date: "21 May 2024",
     title: "Reionization: Joining Bits and Pieces from Different Times",
     venue: "Seminar at the Osservatorio di Astrofisica e Scienza dello Spazio (INAF–OAS), Bologna, Italy.",
