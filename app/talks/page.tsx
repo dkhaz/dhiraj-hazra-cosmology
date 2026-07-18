@@ -13,6 +13,8 @@ const earlyTalks = [
   ["Reconstructing the primordial power spectrum", "Theories and Practices in Large Scale Structure Formation, APCTP Seoul, 15–16 Apr 2013."],
   ["Cosmological parameter estimation with free-form PPS", "Reconstructing the Universe, IEU Seoul, 3–5 Jun 2013; 1st APCTP–NBIA Workshop, Pohang, 21–25 Oct 2013."],
   ["Reconstruction from WMAP and Planck", "New Perspectives on Cosmology, APCTP, 25–29 Nov 2013; Cosmology and Fundamental Physics IV, APCTP, 5–15 Dec 2013."],
+  ["Whipped Inflation, Planck and BICEP2", "1st APCTP–TUS Workshop on Dark Energy, APCTP, Pohang, 2–5 Jun 2014."],
+  ["Primordial power spectrum from Planck", "Cosmological Quests for the Next Decade, KASI, Daejeon, 16–18 Apr 2014; 2nd NBIA–APCTP Workshop on Cosmology and Astroparticle Physics, NBIA, Copenhagen, 18–22 Aug 2014; Cosmology after Planck, MIAPP, Garching, 25 Aug–6 Sep 2014."],
   ["Joining bits and pieces of reionization history", "Concordances and Challenges in Cosmology after Planck, Sexten, 18–22 Feb 2019."],
   ["One spectrum to cure them all", "40th meeting of the Astronomical Society of India, IIT Roorkee / online, 25–29 Mar 2022; Cosmological Tensions and its Implication to Concordance Cosmology, IFPU Trieste, 12–23 Jun 2023."],
   ["CMB Data: A Discussion on Physics and Systematics", "4th BRICS–AGAC symposium, SGT University, Haryana, 17–19 Dec 2024."],
@@ -23,7 +25,7 @@ const earlyTalks = [
 const seminarTours = [
   ["Sep 2011", "Local and non-local primordial features", "ICTP Trieste; Royal Observatory Edinburgh; DAMTP Cambridge; APC and IAP Paris; CERN Cosmo Coffee and University of Geneva."],
   ["2013", "Reconstructing the primordial power spectrum", "Bielefeld; Göttingen; Leiden; IAP and APC Paris — 9–18 July 2013."],
-  ["2014", "Primordial power spectrum from Planck", "University College London; Imperial College London; Kavli Institute for Cosmology Cambridge — 30 July–6 August 2014."],
+  ["2014", "Primordial power spectrum from Planck", "University College London; Imperial College London; Kavli Institute for Cosmology Cambridge; CERN Cosmo Coffee — 30 July–13 August 2014."],
   ["2014", "Assumptions, observations and parameter estimations", "IUCAA Pune and TIFR Mumbai — 16–17 October 2014."],
   ["2016", "Testing the standard model of cosmology and beyond", "Berkeley Center for Cosmological Physics and Princeton University — 6 and 18 April 2016."],
   ["2017", "Primordial Universe: the standard model and beyond", "ICAP seminar, Institut d’Astrophysique de Paris — 20 April 2017."],
