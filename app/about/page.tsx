@@ -19,9 +19,9 @@ const history = [
 
 const grants = [
   ["2026—2031", "ANRF MATRICS grant", "Principal Investigator", "EPOCH: Exploring Primordial Origins in Cosmic Hierarchies"],
-  ["2022—2024", "IFCPAR / CEFIPRA", "Joint collaborator · PI L. Sriramkumar", "Testing flavors of the early Universe beyond vanilla models with cosmological observations"],
+  ["2022—2026", "IFCPAR / CEFIPRA", "Joint collaborator · PI L. Sriramkumar", "Testing flavors of the early Universe beyond vanilla models with cosmological observations"],
   ["2022—2024", "Indo–Italy Bilateral Grant", "Principal Investigator", "RELIC: Reconstructing Early and Late events In Cosmology"],
-  ["2022—2023", "Fulbright–Nehru Academic and Professional Excellence Fellowship", "Principal Investigator", "Nine-month research stay at Harvard University, Cambridge, Massachusetts"],
+  ["2022—2023", "Fulbright–Nehru Academic and Professional Excellence Fellowship", "Awarded; not taken up", "Nine-month research stay at Harvard University, Cambridge, Massachusetts"],
   ["2022", "N. R. Sen Young Researcher Award", "Award", "Indian Association for General Relativity and Gravitation"],
 ];
 
