@@ -126,10 +126,13 @@ export default function GroupPage() {
           </div>
         </section>
         <aside className="availability-note">
-          <span>Project notice</span>
-          <div>
+          <div className="availability-note__item">
+            <span>ANRF–NPDF opportunity</span>
+            <p>I am willing to serve as mentor for one candidate applying for an ANRF National Post-Doctoral Fellowship in the next application cycle.</p>
+          </div>
+          <div className="availability-note__item">
+            <span>Student projects</span>
             <p>I am presently not offering short-term projects or supervising master’s theses.</p>
-            <p>I am willing to host one candidate for an ANRF National Post-Doctoral Fellowship in the next application cycle.</p>
           </div>
         </aside>
       </section>
