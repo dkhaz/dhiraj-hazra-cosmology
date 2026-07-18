@@ -309,11 +309,20 @@ button, summary { font: inherit; }
 .event-feature aside .kicker { color: #c8d9d4; }
 .event-feature aside ul { margin: 27px 0 0; padding: 0; list-style: none; }
 .event-feature aside li { padding: 9px 0; border-bottom: 1px solid #6d8d84; font-size: 11px; line-height: 1.4; }
+.event-poster { display: block; margin-top: 46px; overflow: hidden; background: #071017; }
+.event-poster img { display: block; width: 100%; height: auto; transition: transform 220ms ease; }
+.event-poster:hover img { transform: scale(1.01); }
 .archived-event { display: grid; grid-template-columns: 3fr 9fr; gap: 24px; padding: 48px 0; border-bottom: 1px solid var(--line); }
 .archived-event__meta span { color: var(--orange); font-family: var(--font-serif); font-size: 52px; }
 .archived-event__meta p { color: #6c756e; font-family: var(--font-mono); font-size: 9px; letter-spacing: .05em; line-height: 1.7; text-transform: uppercase; }
 .archived-event__copy h3 { max-width: 800px; margin: 14px 0 22px; font-family: var(--font-serif); font-size: 36px; font-weight: 400; letter-spacing: -.03em; line-height: 1.08; }
 .archived-event__copy > p:not(.kicker) { max-width: 880px; color: #566159; font-size: 13px; line-height: 1.7; }
+.event-gallery { display: grid; grid-template-columns: minmax(0, 2fr) minmax(180px, 1fr); gap: 14px; margin: 28px 0; }
+.event-gallery a { display: block; overflow: hidden; background: #e8e7e0; }
+.event-gallery img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 220ms ease; }
+.event-gallery__photo { aspect-ratio: 3 / 2; }
+.event-gallery__poster { aspect-ratio: 3 / 2; }
+.event-gallery a:hover img { transform: scale(1.015); }
 .archive-details { margin: 24px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .archive-details summary { cursor: pointer; padding: 13px 0; color: var(--green); font-family: var(--font-mono); font-size: 9px; font-weight: 600; letter-spacing: .09em; text-transform: uppercase; }
 .archive-details ul { columns: 2; margin: 0; padding: 5px 0 20px 18px; color: #5a655d; font-size: 11px; }
@@ -620,6 +629,9 @@ button, summary { font: inherit; }
   .event-feature__header dl div { display: grid; grid-template-columns: 80px 1fr; }
   .event-feature__header dd { margin-top: 0; }
   .archived-event { grid-template-columns: 1fr; }
+  .event-gallery { grid-template-columns: 1fr; }
+  .event-gallery__photo, .event-gallery__poster { aspect-ratio: auto; }
+  .event-gallery img { height: auto; }
   .archive-details ul { columns: 1; }
   .history-ledger article, .grant-ledger article { grid-template-columns: 1fr; gap: 8px; }
   .survey-grid { grid-template-columns: 1fr; }
