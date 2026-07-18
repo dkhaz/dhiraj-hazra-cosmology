@@ -225,16 +225,19 @@ button, summary { font: inherit; }
 .prose-entry p { margin: 0; color: #59645c; font-size: 12px; line-height: 1.65; }
 
 .people-section, .former-section, .visitor-section, .collaborator-section, .talk-section, .seminar-section, .recent-talk-section, .slide-section, .event-archive { padding-top: 80px; padding-bottom: 86px; border-bottom: 1px solid var(--line); }
-.people-grid { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line); }
+.present-group + .present-group { margin-top: 42px; }
+.present-group > h3 { margin: 0 0 16px; padding-bottom: 9px; border-bottom: 1px solid var(--green); color: var(--green); font-family: var(--font-mono); font-size: 9px; font-weight: 600; letter-spacing: .09em; text-align: left; text-transform: uppercase; }
+.people-grid { display: grid; grid-template-columns: repeat(3, 1fr); }
 .person-entry { min-height: 225px; position: relative; padding: 22px 24px; border-right: 1px solid var(--line); }
-.person-entry:last-child { border-right: 0; }
+.person-entry:nth-child(3n) { border-right: 0; }
 .person-entry__number { color: var(--orange); font-family: var(--font-mono); font-size: 9px; }
-.person-entry h3 { margin: 66px 0 3px; font-family: var(--font-serif); font-size: 27px; font-weight: 400; line-height: 1.1; }
+.person-entry h4 { margin: 66px 0 3px; font-family: var(--font-serif); font-size: 27px; font-weight: 400; line-height: 1.1; }
 .person-entry p { margin: 0; color: #59645c; font-size: 12px; }
 .person-entry .person-entry__role { margin-bottom: 22px; color: var(--green); font-family: var(--font-mono); font-size: 8px; letter-spacing: .08em; text-transform: uppercase; }
 .availability-note { display: grid; grid-template-columns: 3fr 9fr; gap: 24px; margin-top: 44px; padding: 20px 0; border-top: 1px solid var(--orange); border-bottom: 1px solid var(--orange); }
 .availability-note span { color: var(--orange); font-family: var(--font-mono); font-size: 9px; letter-spacing: .1em; text-transform: uppercase; }
 .availability-note p { margin: -4px 0 0; font-family: var(--font-serif); font-size: 22px; line-height: 1.3; }
+.availability-note p + p { margin-top: 15px; padding-top: 15px; border-top: 1px solid var(--line); }
 .people-ledger { border-top: 1px solid var(--line); }
 .people-ledger article { display: grid; grid-template-columns: 3fr 7fr 2fr; gap: 24px; padding: 24px 0; border-bottom: 1px solid var(--line); }
 .people-ledger h3 { margin: 0 0 4px; font-family: var(--font-serif); font-size: 22px; font-weight: 400; }
@@ -535,8 +538,8 @@ button, summary { font: inherit; }
   .split-ledgers { grid-template-columns: 1fr; gap: 60px; }
   .people-grid { grid-template-columns: 1fr 1fr; }
   .former-groups { grid-template-columns: 1fr; gap: 48px; }
-  .person-entry:nth-child(2) { border-right: 0; }
-  .person-entry:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
+  .person-entry:nth-child(2n) { border-right: 0; }
+  .person-entry:nth-child(3n) { border-right: 1px solid var(--line); }
   .visitor-timeline { grid-template-columns: 1fr 1fr 1fr; }
   .visitor-timeline article:nth-child(3) { border-right: 0; }
   .visitor-timeline article:nth-child(-n+3) { border-bottom: 1px solid var(--line); }

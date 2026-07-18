@@ -5,10 +5,13 @@ export const metadata: Metadata = {
   description: "Current and former group members, visitors and scientific collaborators.",
 };
 
-const current = [
+const phdStudents = [
   ["Ajoy Dawn", "PhD student", "Gravitational lensing and clustering"],
   ["Anik Ghosh", "PhD student", "Cosmic reionization"],
   ["Sanhitaa Guha", "PhD student", "Large-scale structure"],
+];
+
+const postdoctoralFellows = [
   ["Debabrata Chandra", "Postdoctoral fellow", "Inflationary cosmology"],
 ];
 
@@ -100,17 +103,34 @@ export default function GroupPage() {
 
       <section className="people-section shell">
         <div className="section-heading section-heading--rule group-section-heading"><h2>Present members</h2></div>
-        <div className="people-grid">
-          {current.map(([name, role, topic], index) => (
-            <article className="person-entry" key={name}>
-              <span className="person-entry__number">{String(index + 1).padStart(2, "0")}</span>
-              <h3>{name}</h3><p className="person-entry__role">{role}</p><p>{topic}</p>
-            </article>
-          ))}
-        </div>
+        <section className="present-group">
+          <h3>PhD students</h3>
+          <div className="people-grid">
+            {phdStudents.map(([name, role, topic], index) => (
+              <article className="person-entry" key={name}>
+                <span className="person-entry__number">{String(index + 1).padStart(2, "0")}</span>
+                <h4>{name}</h4><p className="person-entry__role">{role}</p><p>{topic}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+        <section className="present-group">
+          <h3>Postdoctoral fellows</h3>
+          <div className="people-grid">
+            {postdoctoralFellows.map(([name, role, topic], index) => (
+              <article className="person-entry" key={name}>
+                <span className="person-entry__number">{String(index + 1).padStart(2, "0")}</span>
+                <h4>{name}</h4><p className="person-entry__role">{role}</p><p>{topic}</p>
+              </article>
+            ))}
+          </div>
+        </section>
         <aside className="availability-note">
           <span>Project notice</span>
-          <p>I am presently not offering short-term projects or supervising master’s theses.</p>
+          <div>
+            <p>I am presently not offering short-term projects or supervising master’s theses.</p>
+            <p>I am willing to host one candidate for an ANRF National Post-Doctoral Fellowship in the next application cycle.</p>
+          </div>
         </aside>
       </section>
 
