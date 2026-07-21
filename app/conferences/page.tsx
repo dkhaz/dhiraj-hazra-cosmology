@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Cosmology meetings organized at the Institute of Mathematical Sciences, Chennai.",
 };
 
-const committee = ["Susmita Adhikari — IISER Pune", "Pravabati Chingangbam — IIA Bengaluru", "Dhiraj Kumar Hazra, Convener — IMSc Chennai", "Ranjan Laha — IISc Bengaluru", "Aseem Paranjape — IUCAA Pune", "Tirthankar Roy Choudhury — NCRA–TIFR Pune", "Tarun Souradeep — RRI Bengaluru", "L. Sriramkumar — IUCAA Pune"];
+const committee = ["Susmita Adhikari — IISER Pune", "Pravabati Chingangbam — IIA Bengaluru", "Dhiraj Kumar Hazra, Convener — IMSc Chennai", "Ranjan Laha — IISc Bengaluru", "Aseem Paranjape — IUCAA Pune", "Tirthankar Roy Choudhury — NCRA–TIFR Pune", "Tarun Souradeep — RRI Bengaluru", "L. Sriramkumar — IITM Chennai"];
 
 const akrSpeakers = ["Narayan Banerjee — IISER Kolkata", "Sumanta Chakraborty — IACS Kolkata", "Sudipta Das — Visva-Bharati", "Ghanashyam Date — IMSc & CMI", "Pankaj Joshi — Ahmedabad University", "Sayan Kar — IIT Kharagpur", "Parthasarathi Majumdar — IACS", "Palash Baran Pal — University of Calcutta", "Sreerup Raychaudhuri — TIFR", "Soumitra SenGupta — IACS", "L. Sriramkumar — IIT Madras", "Amitabh Virmani — CMI", "Spenta Wadia — ICTS"];
 
