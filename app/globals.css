@@ -224,7 +224,7 @@ button, summary { font: inherit; }
 .prose-entry h3 { margin: 0 0 11px; font-family: var(--font-serif); font-size: 25px; font-weight: 400; }
 .prose-entry p { margin: 0; color: #59645c; font-size: 12px; line-height: 1.65; }
 
-.people-section, .former-section, .visitor-section, .collaborator-section, .talk-section, .seminar-section, .recent-talk-section, .slide-section, .event-archive { padding-top: 80px; padding-bottom: 86px; border-bottom: 1px solid var(--line); }
+.people-section, .opportunity-section, .former-section, .visitor-section, .collaborator-section, .talk-section, .seminar-section, .recent-talk-section, .slide-section, .event-archive { padding-top: 80px; padding-bottom: 86px; border-bottom: 1px solid var(--line); }
 .present-group + .present-group { margin-top: 42px; }
 .present-group > h3 { margin: 0 0 16px; padding-bottom: 9px; border-bottom: 1px solid var(--green); color: var(--green); font-family: var(--font-mono); font-size: 9px; font-weight: 600; letter-spacing: .09em; text-align: left; text-transform: uppercase; }
 .people-grid { display: grid; grid-template-columns: repeat(3, 1fr); }
@@ -238,7 +238,7 @@ button, summary { font: inherit; }
 .availability-note__item { display: grid; grid-template-columns: 3fr 9fr; gap: 24px; padding: 20px 0; }
 .availability-note__item + .availability-note__item { border-top: 1px solid var(--line); }
 .availability-note span { color: var(--orange); font-family: var(--font-mono); font-size: 9px; letter-spacing: .1em; text-transform: uppercase; }
-.availability-note p { margin: -4px 0 0; font-family: var(--font-serif); font-size: 22px; line-height: 1.3; }
+.availability-note p { margin: -4px 0 0; font-family: var(--font-serif); font-size: 22px; line-height: 1.3; }\n.availability-note a { color: var(--green); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .people-ledger { border-top: 1px solid var(--line); }
 .people-ledger article { display: grid; grid-template-columns: 3fr 7fr 2fr; gap: 24px; padding: 24px 0; border-bottom: 1px solid var(--line); }
 .people-ledger h3 { margin: 0 0 4px; font-family: var(--font-serif); font-size: 22px; font-weight: 400; }
