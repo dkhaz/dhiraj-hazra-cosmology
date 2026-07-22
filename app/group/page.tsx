@@ -128,7 +128,7 @@ export default function GroupPage() {
       </section>
 
       <section className="opportunity-section shell">
-        <div className="section-heading section-heading--rule group-section-heading"><h2>Join the group</h2></div>
+        <div className="section-heading section-heading--rule group-section-heading"><h2>Research opportunities</h2></div>
         <aside className="availability-note">
           <div className="availability-note__item">
             <span>PhD projects</span>
