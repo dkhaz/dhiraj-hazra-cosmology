@@ -25,7 +25,7 @@ const formerDoctoralStudents = [
 ];
 
 const formerMastersStudents = [
-  ["Aditi Krishak", "Master’s researcher", "Gaussian-process reconstruction of reionization; subsequently at the University of Southern California."],
+  ["Aditi Krishak", "Master’s researcher, IISER Bhopal", "Gaussian-process reconstruction of reionization; subsequently at the University of Southern California."],
   ["Shweta Jain", "Master’s researcher, NIT Trichy", "Inflationary potentials and damped oscillations; subsequently at the University of Kentucky."],
   ["Kushal Lodha", "BS–MS researcher, IIT Kharagpur", "The Hubble tension; subsequently at KASI, Daejeon."],
   ["Sharvari Naik", "Master’s researcher, St. Xavier’s College", "Inflationary models."],
@@ -125,7 +125,19 @@ export default function GroupPage() {
             ))}
           </div>
         </section>
+      </section>
+
+      <section className="opportunity-section shell">
+        <div className="section-heading section-heading--rule group-section-heading"><h2>Join the group</h2></div>
         <aside className="availability-note">
+          <div className="availability-note__item">
+            <span>PhD projects</span>
+            <p>Students admitted to the IMSc doctoral programme who are interested in cosmology are welcome to contact me to discuss possible PhD projects.</p>
+          </div>
+          <div className="availability-note__item">
+            <span>IMSc postdoctoral opportunity</span>
+            <p>There may be a postdoctoral opening in my group in 2027. Interested candidates should apply through the IMSc online application portal. The next call will be advertised on the <a href="https://www.imsc.res.in/post_doctoral_programme_physics">IMSc postdoctoral programme page ↗</a>.</p>
+          </div>
           <div className="availability-note__item">
             <span>ANRF–NPDF opportunity</span>
             <p>I am willing to serve as mentor for one candidate applying for an ANRF National Post-Doctoral Fellowship in the next application cycle.</p>
