@@ -1,15 +1,52 @@
-import type { Metadata } from "next";
+—Áöq›]}˛;}¶º„é⁄k^{y¶˚sûıÁW}·∑wq◊úiæ¯Â˛˝˜Võ{ü_ﬂ}ùÌ∑7Î«8◊áıΩ\import type { Metadata } from "next";
 import { sitePath } from "../lib/paths";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://dkhaz.github.io/dhiraj-hazra-cosmology/"),
   title: {
     default: "Dhiraj Kumar Hazra ‚Äî Cosmology",
     template: "%s ‚Äî Dhiraj Kumar Hazra",
   },
   description:
     "Research in cosmology by Dhiraj Kumar Hazra: the early Universe, cosmological inference, reionization and large-scale structure.",
+  authors: [{ name: "Dhiraj Kumar Hazra", url: "https://dkhaz.github.io/dhiraj-hazra-cosmology/" }],
+  creator: "Dhiraj Kumar Hazra",
+  keywords: ["Dhiraj Kumar Hazra", "cosmology", "IMSc", "early Universe", "CMB", "primordial features", "reionization", "large-scale structure"],
+  robots: { index: true, follow: true },
+  openGraph: {
+    siteName: "Dhiraj Kumar Hazra ‚Äî Cosmology",
+    type: "website",
+    locale: "en_IN",
+    images: [{ url: "/dhiraj-hazra-cosmology/portrait/dhiraj-hazra.jpg", alt: "Dhiraj Kumar Hazra" }],
+  },
   icons: { icon: sitePath("/favicon.svg"), shortcut: sitePath("/favicon.svg") },
+};
+
+const profileSchema = {
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  url: "https://dkhaz.github.io/dhiraj-hazra-cosmology/",
+  mainEntity: {
+    "@type": "Person",
+    "@id": "https://dkhaz.github.io/dhiraj-hazra-cosmology/#person",
+    name: "Dhiraj Kumar Hazra",
+    url: "https://dkhaz.github.io/dhiraj-hazra-cosmology/",
+    image: "https://dkhaz.github.io/dhiraj-hazra-cosmology/portrait/dhiraj-hazra.jpg",
+    jobTitle: "Faculty in Physics",
+    affiliation: [
+      { "@type": "Organization", name: "The Institute of Mathematical Sciences", url: "https://www.imsc.res.in/" },
+      { "@type": "Organization", name: "INAF‚ÄìOAS Bologna", url: "https://www.oas.inaf.it/" },
+    ],
+    sameAs: [
+      "https://www.imsc.res.in/dhiraj_kumar_hazra",
+      "https://scholar.google.com/citations?user=80w2a-YAAAAJ",
+      "https://inspirehep.net/authors/1117380",
+      "https://github.com/dkhaz",
+      "https://sites.google.com/site/codecosmo",
+    ],
+    knowsAbout: ["Cosmology", "Early Universe", "Cosmic microwave background", "Primordial features", "Reionization", "Large-scale structure"],
+  },
 };
 
 const mainNav = [
@@ -98,6 +135,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en">
       <body>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(profileSchema) }} />
         <a className="skip-link" href="#main">Skip to content</a>
         <Header />
         {children}

@@ -1,4 +1,14 @@
+import type { Metadata } from "next";
 import { sitePath } from "../lib/paths";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "https://dkhaz.github.io/dhiraj-hazra-cosmology/" },
+  openGraph: {
+    title: "Dhiraj Kumar Hazra — Cosmology",
+    description: "Research in cosmology by Dhiraj Kumar Hazra at the Institute of Mathematical Sciences, Chennai.",
+    url: "https://dkhaz.github.io/dhiraj-hazra-cosmology/",
+  },
+};
 
 const themes = [
   {
