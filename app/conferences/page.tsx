@@ -42,6 +42,14 @@ export default function ConferencesPage() {
         <a className="event-poster" href={sitePath("/conferences/cosmic-connections-2026-poster.jpg")} target="_blank" rel="noreferrer">
           <img src={sitePath("/conferences/cosmic-connections-2026-poster.jpg")} alt="Poster for Cosmic Connections 2026: AI/ML Across Cosmic Scales" />
         </a>
+        <div className="event-gallery event-gallery--pair">
+          <a className="event-gallery__photo" href={sitePath("/conferences/cosmic-connections-2026-conference-group.jpg")} target="_blank" rel="noreferrer">
+            <img src={sitePath("/conferences/cosmic-connections-2026-conference-group.jpg")} alt="Participants at the Cosmic Connections 2026 conference at IMSc" />
+          </a>
+          <a className="event-gallery__photo" href={sitePath("/conferences/cosmic-connections-2026-workshop-group.jpg")} target="_blank" rel="noreferrer">
+            <img src={sitePath("/conferences/cosmic-connections-2026-workshop-group.jpg")} alt="Participants at the Cosmic Connections 2026 advanced workshop at IMSc" />
+          </a>
+        </div>
       </article>
 
       <section className="event-archive shell">

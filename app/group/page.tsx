@@ -13,6 +13,12 @@ const phdStudents = [
 
 const postdoctoralFellows = [
   ["Debabrata Chandra", "Postdoctoral fellow", "Inflationary cosmology"],
+  ["Dr Joseph Johnson", "National Post-Doctoral Fellow (NPDF), IMSc", ""],
+];
+
+const visitingFellows = [
+  ["Dr Ujjwal Kumar Upadhyay", "Visiting fellow", "IISc Bengaluru → IMSc"],
+  ["Mr Rahul Shah", "Visiting fellow", "ISI Kolkata → IMSc"],
 ];
 
 const formerPostdocs = [
@@ -120,7 +126,18 @@ export default function GroupPage() {
             {postdoctoralFellows.map(([name, role, topic], index) => (
               <article className="person-entry" key={name}>
                 <span className="person-entry__number">{String(index + 1).padStart(2, "0")}</span>
-                <h4>{name}</h4><p className="person-entry__role">{role}</p><p>{topic}</p>
+                <h4>{name}</h4><p className="person-entry__role">{role}</p>{topic && <p>{topic}</p>}
+              </article>
+            ))}
+          </div>
+        </section>
+        <section className="present-group">
+          <h3>Visiting fellows</h3>
+          <div className="people-grid">
+            {visitingFellows.map(([name, role, affiliation], index) => (
+              <article className="person-entry" key={name}>
+                <span className="person-entry__number">{String(index + 1).padStart(2, "0")}</span>
+                <h4>{name}</h4><p className="person-entry__role">{role}</p><p>{affiliation}</p>
               </article>
             ))}
           </div>
