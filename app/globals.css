@@ -313,6 +313,17 @@ button, summary { font: inherit; }
 .event-feature aside .kicker { color: #c8d9d4; }
 .event-feature aside ul { margin: 27px 0 0; padding: 0; list-style: none; }
 .event-feature aside li { padding: 9px 0; border-bottom: 1px solid #6d8d84; font-size: 11px; line-height: 1.4; }
+.programme-archive { margin-top: 46px; border-top: 1px solid var(--orange); }
+.programme-details { border-bottom: 1px solid var(--line); }
+.programme-details summary { cursor: pointer; padding: 18px 0; color: var(--green); font-family: var(--font-mono); font-size: 10px; font-weight: 600; letter-spacing: .09em; text-transform: uppercase; }
+.programme-tracks { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; padding: 16px 0 34px; }
+.programme-tracks section { border-top: 1px solid var(--orange); }
+.programme-tracks h3 { margin: 17px 0 20px; font-family: var(--font-serif); font-size: 28px; font-weight: 400; }
+.programme-tracks ul, .workshop-programme { margin: 0; padding: 0; list-style: none; }
+.programme-tracks li, .workshop-programme li { padding: 16px 0; border-top: 1px solid var(--line); }
+.programme-tracks li span, .workshop-programme li span { color: var(--green); font-family: var(--font-mono); font-size: 9px; font-weight: 600; letter-spacing: .04em; }
+.programme-tracks li p, .workshop-programme li p { margin: 7px 0 0; color: #566159; font-size: 12px; line-height: 1.55; }
+.workshop-programme { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 28px; padding: 16px 0 34px; }
 .event-poster { display: block; margin-top: 46px; overflow: hidden; background: #071017; }
 .event-poster img { display: block; width: 100%; height: auto; transition: transform 220ms ease; }
 .event-poster:hover img { transform: scale(1.01); }
@@ -551,6 +562,7 @@ button, summary { font: inherit; }
   .epidemiology-note__links { grid-column: 1; justify-content: flex-start; }
   .event-feature__header, .event-feature__body { grid-template-columns: 1fr; }
   .event-feature__body { gap: 42px; }
+  .programme-tracks, .workshop-programme { grid-template-columns: 1fr 1fr; }
   .about-portrait { width: min(100%, 380px); margin-top: 38px; }
   .about-statement { display: block; }
   .about-statement > div { margin-top: 30px; }
@@ -633,6 +645,7 @@ button, summary { font: inherit; }
   .event-feature__header dl { grid-template-columns: 1fr; }
   .event-feature__header dl div { display: grid; grid-template-columns: 80px 1fr; }
   .event-feature__header dd { margin-top: 0; }
+  .programme-tracks, .workshop-programme { grid-template-columns: 1fr; }
   .archived-event { grid-template-columns: 1fr; }
   .event-gallery { grid-template-columns: 1fr; }
   .event-gallery__photo, .event-gallery__poster { aspect-ratio: auto; }

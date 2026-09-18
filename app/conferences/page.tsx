@@ -14,6 +14,84 @@ const cosmicConnectionsSpeakers = [
   "Jasjeet Singh Bagla — IISER Mohali", "Arunima Banerjee — IISER Tirupati", "Arka Banerjee — IISER Pune", "Dibya Chakraborty — IIT Madras", "Anirban Chakraborty — NCRA Pune", "Samir Choudhuri — IIT Madras", "Debika Chowdhury — IIA Bengaluru", "Subinoy Das — IIA Bengaluru", "Suratna Das — Ashoka University", "Anirban Das — SINP Kolkata", "Kanan Kumar Datta — Jadavpur University", "Bihag Dave — Ahmedabad University", "Saee Dhawalikar — IUCAA Pune", "Koushik Dutta — IISER Kolkata", "Kazuyuki Furuuchi — MCNS/MAHE Manipal", "Prakash Gaikwad — IIT Indore", "Raghuveer Garani — IIT Madras", "Raghunath Ghara — IISER Kolkata", "Tuhin Ghosh — NISER Bhubaneswar", "Diptimoy Ghosh — IISER Pune", "Gaurav Goswami — Ahmedabad University", "Rajeev Kumar Jain — IISc Bengaluru", "Rashi Jain — NCRA Pune", "Nishikanta Khandai — NISER Bhubaneswar", "Rishi Khatri — TIFR Mumbai", "Girish Kulkarni — TIFR Mumbai", "Samuel Sánchez López — IMSc Chennai", "Anshuman Maharana — HRI Prayagraj", "Debaprasad Maity — IIT Guwahati", "Suvashis Maity — IISER Pune", "Suman Majumdar — IIT Indore", "Subha Majumdar — TIFR Mumbai", "Suvodip Mukherjee — TIFR Mumbai", "Suvedha Suresh Naik — IIA Bengaluru", "Supratik Pal — ISI Kolkata", "Vikram Rentala — IIT Bombay", "P. Jishnu Sai — IISc Bengaluru", "Tapomoy Guha Sarkar — BITS Pilani", "Anjan Ananda Sen — CTP/JMI New Delhi", "Saurabh Singh — RRI Bengaluru", "R. Srianand — IUCAA Pune", "Yashi Tiwari — IISc Bengaluru", "Yogesh Wadadekar — NCRA–TIFR Pune",
 ];
 
+const cosmicConnections2026Tracks = [
+  {
+    heading: "Early Universe",
+    talks: [
+      ["Suddhasattwa Brahma", "From Hidden Symmetries to Thermal Seeds: Open Quantum Dynamics during Inflation"],
+      ["H. V. Ragavendra", "Exploring primordial dynamics using cosmological gravitational wave"],
+      ["Aurindam Mondal", "Quantum Measures of Early Universe cosmology: Investigation of Bell inequality for squeezed coherent state of inflationary perturbations"],
+      ["Koushik Dutta", "Scalaron Dark Matter Dynamics in f(R) Gravity"],
+      ["Nilanjandev Bhaumik", "Population of near-solar-mass primordial black holes in LVK and NANOGrav"],
+      ["Rounak Nath", "Constraints on the inflationary vacuum and reheating era from NANOGrav"],
+      ["Prabhav Singh", "Signatures of Primordial Black Hole Induced Neutrinos in the Universe"],
+      ["Gokhula Prasad", "Bound State dark matter in the Early Universe: Solving the Cosmological Tensions"],
+      ["Bhargabi Saha", "Warm α-Attractor Inflation: Dynamics and Observational Viability"],
+      ["Debabrata Chandra", "Reconstructing Primordial Power Spectrum for Widest Scales from CMB"],
+    ],
+  },
+  {
+    heading: "Intermediate Universe",
+    talks: [
+      ["Namrata Roy", "From Black Holes to the Cosmic Baryon Cycle: Mapping Feedback Across Cosmic Scales across Cosmic Time"],
+      ["Jaya Doliya", "Dark Recipe for the First Giants"],
+      ["Pralay Biswas", "Insights from the Previously Unseen Low-mass HST-dark Galaxies with JWST/UNCOVER"],
+      ["Anshuman Tripathi", "Bridging Galaxy Evolution and the 21-cm Signal through Joint Machine Learning Constraints on the Epoch of Reionization"],
+      ["Abhirup Datta", "Low-Frequency Radio Cosmology with the SKA"],
+      ["Suchetana Chatterjee", "Black Holes in the Cosmic Web"],
+      ["Shikhar Mittal", "Probing Interacting Dark Matter with the SARAS3 21-cm Cosmic Dawn Non-Detection"],
+      ["Ranjini Mondal", "Dark Secrets of Baryons: Illuminating Dark Matter-Baryon Interactions with JWST"],
+      ["Anirban Chowdhary", "Conditional Luminosity Functions of Active Galactic Nuclei in Simulations"],
+      ["Hiten", "Primordial Magnetic Fields and Early Structure Formation: Implications for the High-Redshift 21 cm Signal"],
+      ["Manpreet Singh", "Constraining the Neutral Hydrogen Fraction across Different Reionization Histories using Lyman Alpha Dark Gap Statistics"],
+      ["Shiriny Akthar", "Probing the End of Reionization with 21cm–[CII] Cross-Correlation"],
+      ["Anoop Krishna", "HaloFieldNet: Emulating Halo Source Fields for 21-cm Reionization"],
+      ["Yashrajsinh Mahida", "Emulating 21-cm Reionisation Signal Maps and Their Summary Statistics"],
+      ["Mayukh Mandal", "Seeing Through the Foregrounds: Bayesian Inference and Signal Reconstruction for the EoR 21-cm Signal"],
+      ["Bhuwan Joshi", "Constraining Lorentz Violation using 21cm and CMB Cross Correlations"],
+      ["Mayuri S. Rao", "The First Light, First Atoms, First Stars — An experimental perspective"],
+      ["Harsh Mehta", "Insights into JWST observations using the Oldest Cosmic Light"],
+      ["Anirban Chakraborty", "Understanding the Properties of Reionization-Era Galaxies in the JWST Era"],
+    ],
+  },
+  {
+    heading: "Late Universe",
+    talks: [
+      ["Sharvari Nadkarni-Ghosh", "Approximate methods to model non-linear large scale structure"],
+      ["Rahul Shah", "AI/ML Techniques for Model-Independent Cosmological Analysis"],
+      ["Joseph P. J.", "Kernel dependence of the Gaussian Process reconstruction of late Universe expansion history"],
+      ["Vikhyat Sharma", "N-body Simulations of cosmologies with Light Massive Relics"],
+      ["Saptarshi Sarkar", "Reconciling large-scale Lyman-alpha correlations with the SCRIPT Semi-numerical Model"],
+      ["Priyanka Singh", "Velocity Reconstruction for kSZ effect across Baryonic Feedback Mode"],
+      ["Masroor Bashir", "The CatWISE2020 Quasar Dipole: A Reassessment of the Cosmic Dipole Anomaly"],
+      ["Manas Mohit Dosibhatla", "Tracing Cosmic Web Morphology with SKA-Mid 21-cm and CO Line Intensity Mapping Surveys"],
+      ["Durba Ghosh", "Probing Dark Matter–Baryon Interactions with Line Intensity Mapping: Forecasts for COMAP-EoR and COMAP-ERA"],
+      ["Animesh Maji", "Fantastic Beasts and where to find them: The population of Black Hole–Luminous Companion binaries in different galaxy environments"],
+      ["Tulip Ray", "Dark Matter Halo Dynamics in Yukawa Modified Gravity: From Spherical Collapse to the Splashback Radius"],
+      ["Dhiraj Kuniyal", "An insight to Hubble Tension from the non-interacting limit of interacting dark energy-matter"],
+      ["Priyanka Saha", "A Systematic Comparison of Quasi-Static and Subhorizon Approximations in interacting Dark Energy Cosmologies"],
+      ["Sayantan Ghosh", "Reconstructing Dirac-Born-Infeld Dark Energy From Dynamical System to Gaussian Process"],
+      ["Jatin Kumar", "A Hybrid Box Approach for Identifying High Resolution Halos"],
+      ["Rinchen Sherpa", "Semi analytic subhalo mass functions for dark matter baryon scattering"],
+      ["S. Shankaranarayanan", "The Memory of the Universe: A Purely Gravitational Probe for Cosmological Tensions"],
+      ["Roshna K.", "Constraining flat ΛCDM model using Jackknife and Bootstrap resampling"],
+      ["Ujjwal Kumar Upadhyay", "Can Distance Duality Violation Save Late-time Solutions to the Hubble Tension?"],
+      ["Yash Koushal", "Cosmological N-Body Simulations of Dissipative Self-Interacting Dark Matter"],
+      ["Siddhant Sen", "One Halo, Two Boundaries: Relating Accretion Shocks and Splashback Radii in Galaxy Clusters"],
+      ["Suchira Sarkar", "Exploring the local universe galaxy populations using 4MOST Hemisphere survey & application of machine learning"],
+    ],
+  },
+] as const;
+
+const cosmicConnections2026Workshop = [
+  ["Tirthankar Roy Choudhury", "Reionization: parameter inference using SBI"],
+  ["Suman Majumdar · TA: Yashrajsinh Mahida", "Emulators for the cosmic 21-cm signal"],
+  ["Madhurima Choudhury", "Recovering 21cm signal and parameters from simulated radio-interferometric datasets"],
+  ["Shadab Alam", "AI/ML and inference with large-scale structure"],
+  ["Soumak Maitra", "ML for cosmological fields"],
+  ["Debabrata Adak", "AI/ML for CMB data analysis"],
+] as const;
+
 export default function ConferencesPage() {
   return (
     <main id="main">
@@ -38,6 +116,25 @@ export default function ConferencesPage() {
             <div className="event-actions"><a className="text-link" href="https://sites.google.com/imsc.res.in/cosmic-connections-2">Meeting website ↗</a><a className="quiet-link" href="https://forms.gle/ZUwugtauUbVzSVep8">Registration ↗</a></div>
           </div>
           <aside><p className="kicker">Organizing committee</p><ul>{committee.map((name) => <li key={name}>{name}</li>)}</ul></aside>
+        </div>
+        <div className="programme-archive">
+          <details className="programme-details">
+            <summary>Conference talks and speakers</summary>
+            <div className="programme-tracks">
+              {cosmicConnections2026Tracks.map((track) => (
+                <section key={track.heading}>
+                  <h3>{track.heading}</h3>
+                  <ul>{track.talks.map(([speaker, title]) => <li key={`${speaker}-${title}`}><span>{speaker}</span><p>{title}</p></li>)}</ul>
+                </section>
+              ))}
+            </div>
+          </details>
+          <details className="programme-details">
+            <summary>Advanced workshop lecturers and topics</summary>
+            <ul className="workshop-programme">
+              {cosmicConnections2026Workshop.map(([speaker, title]) => <li key={speaker}><span>{speaker}</span><p>{title}</p></li>)}
+            </ul>
+          </details>
         </div>
         <a className="event-poster" href={sitePath("/conferences/cosmic-connections-2026-poster.jpg")} target="_blank" rel="noreferrer">
           <img src={sitePath("/conferences/cosmic-connections-2026-poster.jpg")} alt="Poster for Cosmic Connections 2026: AI/ML Across Cosmic Scales" />
